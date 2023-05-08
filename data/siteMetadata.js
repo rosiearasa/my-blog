@@ -5,7 +5,8 @@ const siteMetadata = {
   title: 'Last Capricon',
   author: 'Rosie Arasa',
   headerTitle: 'Last Capricon',
-  description: 'Welcome to my blog where I share my learning and projects I am working on as a Software Engineer.',
+  description: `Welcome to my blog where I write about what I am learning to solidify my understanding of Software Engineering concepts. 
+                You can also see some of the projects am working on. More details on the projects are on my GitHub`,
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://github.com/rosiearasa/my-blog.vercel.app',
