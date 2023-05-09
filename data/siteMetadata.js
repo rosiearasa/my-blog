@@ -2,9 +2,9 @@
 
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Last Capricon',
+  title: 'I/O Rosie',
   author: 'Rosie Arasa',
-  headerTitle: 'Last Capricon',
+  headerTitle: 'I/O Rosie',
   description: "Welcome to my blog where I write about what I am learning to solidify my understanding of Software Engineering concepts. You can also see some of the projects am working on. More details on the projects are on my GitHub",
   language: 'en-us',
   theme: 'system', // system, dark or light
