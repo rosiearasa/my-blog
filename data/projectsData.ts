@@ -17,6 +17,12 @@ const projectsData = [
     imgSrc: '/static/images/time-machine.jpg',
     href: 'https://github.com/rosiearasa/Amaho',
   },
+  {
+    title: 'Tech Blog: IORosie',
+    description: `Where I find clarity in writing and share my learnings. You are currently here.`,
+    imgSrc: '/static/images/time-machine.jpg',
+    href: 'https://github.com/rosiearasa/my-blog',
+  },
 ]
 
 export default projectsData
