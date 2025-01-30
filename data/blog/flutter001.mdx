@@ -1,0 +1,23 @@
+
+---
+title: State Management in Flutter
+date: '2024-11-01'
+tags: ['flutter', 'state  management' , 'notes']
+draft: false
+summary: State Management 101
+images: []
+---
+
+
+<p> 
+**Introduction to State Management In Flutter**
+</p>
+<p>
+
+	- State management comes up when we start passing data between screens and we want to make out app more interactive with navigation eg: screen to screen, performing actions such add adding an item into a cart etc
+	- We can use the setState() build in functionality with init(), dispose() and whenever we are updating any data that needs to be reflected on the UI.
+		- This method is expensive when we have a parent widget with children widgets since the ui has to be redrawn recursively : all the children widgets must be redrawn.
+	- State management is therefore better left to packages such as Provider, Bloc, Riverpod, GetIt, Redux etc. because the performance is optimized and a lot of the boiler plate code you will need to implement when using setState() is abstracted neatly.
+	- A lot of factors may influence your choice of state management libraary but the most important one is to use a library that is mantained religiously by its authors and is appropriate for your app's use case.
+
+    </p>
