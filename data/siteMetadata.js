@@ -5,7 +5,7 @@ const siteMetadata = {
   title: 'I/O Rosie',
   author: 'Rosie Arasa',
   headerTitle: 'I/O Rosie',
-  description: "Continous Improvement.z",
+  description: "Continous Improvement.",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://github.com/rosiearasa/my-blog.vercel.app',

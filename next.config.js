@@ -75,6 +75,7 @@ module.exports = () => {
       ]
     },
     webpack: (config, options) => {
+      config.optimization.minimize = false;
       config.module.rules.push({
         test: /\.svg$/,
         use: ['@svgr/webpack'],
