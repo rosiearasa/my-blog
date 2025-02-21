@@ -8,7 +8,7 @@ import { InferGetStaticPropsType } from 'next'
 import { NewsletterForm } from 'pliny/ui/NewsletterForm'
 import { allBlogs } from 'contentlayer/generated'
 import type { Blog } from 'contentlayer/generated'
-import { SpeedInsights } from '@vercel/speed-insights/next'
+
 
 const MAX_DISPLAY = 5
 
@@ -98,7 +98,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
       {siteMetadata.newsletter.provider && (
         <div className="flex items-center justify-center pt-4">
           <NewsletterForm />
-          <SpeedInsights />
+       
         </div>
       )}
     </>
