@@ -5,7 +5,7 @@ const siteMetadata = {
   title: 'I/O Rosie',
   author: 'Rosie Arasa',
   headerTitle: 'I/O Rosie',
-  description: "Welcome to my blog where I write about software, books, engineering and other topics I am interested in and other life projects",
+  description: "Continous Improvement.z",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://github.com/rosiearasa/my-blog.vercel.app',
@@ -18,7 +18,7 @@ const siteMetadata = {
   //twitter: 'https://twitter.com/Twitter',
   //facebook: 'https://facebook.com',
   //youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com/in/rosie-arasa-604b7b140',
+  // linkedin: 'https://www.linkedin.com/in/rosie-arasa-604b7b140',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -87,4 +87,4 @@ const siteMetadata = {
   // },
 }
 
-module.exports = siteMetadata
+export default siteMetadata
